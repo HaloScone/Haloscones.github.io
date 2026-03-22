@@ -6,23 +6,37 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <canvas id="myCanvas" width="10000" height="500"></canvas>
-    <script>
-    const canvas = document.getElementById("myCanvas");
-    const ctx = canvas.getContext("2d");
+    <style>
+    h1 
+    {
+        text-align: center; 
+        background-color: rgb(81, 66, 245);
+    }
+    body
+    {
+        background-color: rgb(126, 207, 192);
+    }
+    button 
+    {
+        border: 3px solid black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
 
-    ctx.fillStyle = "rgb(2, 199, 166)";
-    ctx.fillRect(500,10, 800,300)
+    </style>
     
-    </script>
-    
-
 
 
 
     <h1>My Portfolio</h1>
     <h2>About Me:</h2>
-    <p>My name is <i>Ian Schoen </i>and this is my portfolio</p>
+    <h3>My name is <i>Ian Schoen </i>and this is my portfolio</h3>
     <h2><u>Hobbies:</u></h2>
     <ul>
         <li>Playing video games</li>
@@ -35,4 +49,11 @@
         <li>Get my associates degree</li>
         <li>Work in tech job this summer</li>
     </ul>
+    <div>
+        <a href="HomePage.html"> <button type="button" style="color:black;">Home</button></a>
+        <a href="Dogs.html"><button type="button" style="color:black;">Dogs</button></a>
+        <a href="VideoGames.html"><button type="button" style="color:black;">games and Music</button></a>
+        <a href="DreamVaca.html"><button type="button" style="color:black;">Dream Vacation</button></a>
+        <a href="Contact.html"><button style="color:black;">Contact Me</button></a>
+    </div>
 </body>
